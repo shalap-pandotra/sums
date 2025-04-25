@@ -28,7 +28,7 @@ const Header = () => {
   const menuRef = useRef(null);
 
   const handleStickyHeader = () => {
-    window.addEventListener(scroll, () => {
+    window.addEventListener("scroll", () => {
       if (
         document.body.scrollTop > 80 ||
         document.documentElement.scrollTop > 80

@@ -14,7 +14,7 @@
   }
 
   .btn {
-    @apply bg-primaryColour py-[15px] px-[35px] rounded-[25px] text-white font-[600] mt-[38px];
+    @apply bg-primaryColour py-[15px] px-[35px] rounded-[12.5px] text-white font-[600] mt-[38px];
   }
 
   .heading {
@@ -26,6 +26,10 @@
   }
   .header {
     @apply bg-[url('./assets/images/mask.png')] bg-no-repeat bg-center bg-cover w-full h-[100px];
+  }
+
+  .hero__section{
+    @apply bg-[url('./assets/images/hero-bg.png')] bg-no-repeat bg-center bg-cover
   }
 }
 

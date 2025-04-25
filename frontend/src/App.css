@@ -19,6 +19,7 @@ body {
   left: 0;
   z-index: 99999;
   box-sizing: 3px 3px -8px 3px #ddd;
+  background: white;
 }
 
 @media only screen and (max-width: 786px) {
