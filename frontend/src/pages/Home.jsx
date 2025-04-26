@@ -9,6 +9,8 @@ import About from "../components/About/About";
 
 import { Link } from "react-router-dom";
 import { FaChevronRight } from "react-icons/fa";
+import ServiceList from "../components/Services/ServiceList";
+import featureImg from "../assets/images/feature-img.png";
 
 const Home = () => {
   return (
@@ -19,17 +21,15 @@ const Home = () => {
             <div>
               <div className="lg:w-[570px]">
                 <h1 className="text-[36px] leading-[46px] text-headingColour font-[800] md:text-[60px] md:leading-[70px]">
-                  A more convient way to find professionals
+                  Find Trusted Utility Professionals Near You
                 </h1>
 
                 <p className="text__para">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic
-                  voluptatibus facere vel officiis porro consequuntur ipsa,
-                  eligendi voluptates consectetur iste? Minima similique odit
-                  unde nostrum cupiditate quos nam repellat mollitia.
+                  Connect instantly with skilled electricians, plumbers,
+                  cleaners, handymen, and more — all in one place.
                 </p>
 
-                <button className="btn">Request an appointment</button>
+                <button className="btn">Book a service</button>
               </div>
 
               <div className="mt-[30px] lg:mt-[70px] flex flex-col lg:flex-row lg:items-center gap-5 lg:gap-[30px]">
@@ -65,13 +65,12 @@ const Home = () => {
               Providing the best utility services
             </h2>
             <p className="text-center text__para">
-              World-class services for everyone. Our system offers easy access
-              with local professionals
+              We make it easy to find reliable local professionals for all your
+              home and office needs. Fast, trustworthy, and hassle-free.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-[30px] mt-[30px] lg:mt-[55px]">
-            
             <div className="py-[30px] px-5">
               <div className="flex items-center justify-center">
                 <img src={icon01} alt="" />
@@ -82,8 +81,8 @@ const Home = () => {
                   find a professional
                 </h2>
                 <p className="text-[16px] leading-7 text-textColour font-[400] mt-4 text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, officia temporibus. Iste, inventore perspiciatis!
+                  Browse and hire trusted plumbers, electricians, handymen, and
+                  other service experts in your area.
                 </p>
 
                 <Link
@@ -105,8 +104,8 @@ const Home = () => {
                   find a location
                 </h2>
                 <p className="text-[16px] leading-7 text-textColour font-[400] mt-4 text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, officia temporibus. Iste, inventore perspiciatis!
+                  Quickly locate nearby service providers using our easy-to-use
+                  map and search tools.
                 </p>
 
                 <Link
@@ -124,11 +123,11 @@ const Home = () => {
 
               <div className="mt-[30px]">
                 <h2 className="text-[26px] leading-9 text-headingColour font-[700] text-center">
-                  book an appointment
+                  book a service
                 </h2>
                 <p className="text-[16px] leading-7 text-textColour font-[400] mt-4 text-center">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Commodi, officia temporibus. Iste, inventore perspiciatis!
+                  Schedule services at your convenience with just a few clicks —
+                  no phone calls needed.
                 </p>
 
                 <Link
@@ -139,13 +138,53 @@ const Home = () => {
                 </Link>
               </div>
             </div>
-
           </div>
         </div>
       </section>
 
       <About />
 
+      <section>
+        <div className="container">
+          <div className="xl:w-[470px] mx-auto">
+            <h2 className="heading text-center">Our services</h2>
+            <p className="text__para text-center">
+              From quick fixes to major projects, we connect you with
+              experienced local professionals who get the job done right.
+            </p>
+          </div>
+
+          <ServiceList />
+        </div>
+      </section>
+
+      <section>
+        <div className="container">
+          <div className="flex items-center justify-between flex-col lg:flex-row">
+            <div className="xl:w-[670px]">
+              <h2 className="heading">
+                Get the Help You Need, <br />
+                When You Need It
+              </h2>
+              <ul className="p-4">
+                <li className="text__para">1. Easy and fast booking</li>
+
+                <li className="text__para">2. Verified service providers</li>
+
+                <li className="text__para">3. Flexible scheduling options</li>
+              </ul>
+
+              <Link to="/">
+                <button className="btn">Learn More</button>
+              </Link>
+            </div>
+
+            <div className="relative z-10 xl:w-[770px] flex justify-end mt-[50px] lg:mt-0">
+              <img src={featureImg} className="w-3/4" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
     </>
   );
 };
