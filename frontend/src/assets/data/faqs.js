@@ -1,27 +1,27 @@
 export const faqs = [
   {
-    question: "What is your medical care?",
+    question: "What types of services do you offer?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "We connect you with trusted professionals for a variety of home services including plumbing, electrical repairs, cleaning, appliance installation, and more.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "How do I book a service?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Booking is easy! Just choose the service you need, pick a time that works for you, and one of our professionals will be on their way.",
   },
   {
-    question: "What happens if I need to go a hospital?",
+    question: "What if I need to reschedule or cancel?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "No problem! You can reschedule or cancel your booking up to 24 hours before your appointment through your account or by contacting our support team.",
   },
   {
-    question: "Can I visit your medical office?",
+    question: "Are your service providers vetted?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Yes! All our service providers go through a thorough background check and are selected based on their experience, professionalism, and customer reviews.",
   },
   {
-    question: "Does you provide urgent care?",
+    question: "Do you offer emergency services?",
     content:
-      "One Medical was founded on a better model of care one designed around patients needs that provides a higher level of quality and service affordably. We do this through innovative design, excellent customer service, and the efficient use of technology.",
+      "Yes, we offer emergency support for urgent needs like burst pipes, power outages, or lockouts. Emergency services are available 24/7 in most areas.",
   },
 ];
