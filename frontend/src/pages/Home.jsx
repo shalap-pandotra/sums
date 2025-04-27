@@ -41,7 +41,7 @@ const Home = () => {
 
             <div className="flex gap-[30px] justify-end">
               <div>
-                <img className="w-full" src={heroImg01} alt="" />
+                <img className="w-full rounded-[12.5px]" src={heroImg01} alt="" />
               </div>
               <div className="mt-[30px]">
                 <img

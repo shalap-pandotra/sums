@@ -12,7 +12,7 @@ const socialLinks = [
   },
 
   {
-    path: "https://github.com/shalap__pandotra/",
+    path: "https://instagram.com/shalap__pandotra/",
     icon: <FaInstagram className="group-hover:text-white w-6 h-6" />,
   },
 
